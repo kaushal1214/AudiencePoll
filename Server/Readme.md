@@ -13,4 +13,4 @@ Audience Poll Application
 
 Screenshot:
 ![Screenshot][screen]
-[screen]: /Screenshots/audiencPoll.png "debateclub.png"
+[screen]: Screenshots/audiencPoll.png "debateclub.png"
