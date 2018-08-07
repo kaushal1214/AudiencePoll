@@ -1,0 +1,54 @@
+<script>
+	 var socket = io();
+
+	 socket.on('votingsOpen', function(data){
+			
+			if(data != null)
+			{
+				var temp;
+				for( temp in data)
+				{
+					console.log(data[temp]);
+					$("#"+data[temp]).text("Open");
+					document.getElementById(data[temp]).style.color="green";
+					document.getElementById('checkbox_'+data[temp]).checked = true;
+				}
+			}
+		});
+  
+</script>
+
+<div class="panel panel-success">
+	<div class="panel-heading">
+		<h2 class="panel-title">
+			Open Voting Lines
+		</h2>
+	</div>
+	<div class="panel-body">
+	  <form method="post" action="/openvoting" ectype="x-www-form-urlencoded">
+	    <div class="panel-body form-horizontal">
+		<table class="table table-hover">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Team Name</th>
+		      <th scope="col">Status</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    {{#each list}}
+		    <tr class="table-active">
+		      <td><input type="checkbox" id="checkbox_{{id}}" name="{{id}}" value="{{id}}"></td>
+		      <th scope="row">{{name}}</td>
+		      <td><label id="{{id}}" style="color:#f72d28" class="status">Close</label></td>
+		    </tr>
+		    {{/each}}
+		  </tbody>
+		</table>
+		<div class="form-group col-md-12 text-center">
+			<button type="submit" id="openvotingLine" class="btn btn-success">Submit</button>
+		</div>
+	      </div>		
+	</form>
+	</div>
+</div> 

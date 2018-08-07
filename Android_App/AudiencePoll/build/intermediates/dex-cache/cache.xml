@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_0104281343e29d7f14864922b08dcabc5d24ac8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/90f9bdefd4ab279797a3ea6ddb6aa3c7f8e8c62d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_394a22d42d91cd6ccf1f694c4c7dbe150d8ef1fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/d8161fb12ea6916b11f026894acb23e34bc06b09/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_402fb850c9f08ba6d10bcc6d7efc26b98f6390ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/9dba9a3a5f4ac0ccace968c520df07480487d95e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_cb351021596919a9b4042bd9313f0c6ae33bc724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/b49b7c586ae16d872f7ece95406e1cc7d0034716/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_2ae3b59584ac4def7ef69377bd67e114fae8e29d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/support-annotations-26.0.0-alpha1_0104281343e29d7f14864922b08dcabc5d24ac8b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/d6adac1c71e01972e230d722d61fefae9efde47c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71d1e33d0b0dbbda658f8d9cfe445ce5269cd215/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/d8161fb12ea6916b11f026894acb23e34bc06b09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_402fb850c9f08ba6d10bcc6d7efc26b98f6390ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/b49b7c586ae16d872f7ece95406e1cc7d0034716/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ae3b59584ac4def7ef69377bd67e114fae8e29d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/952e3dcc105ccbec4270e2528b60dc95a40b44b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_8553620d6bb0fa6ea5a29e70375caef2ce7b740e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/constraint-layout-solver-1.0.2_f4aa5e3f2063f15f0096d8d4dd7079ee490dafa1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/9dba9a3a5f4ac0ccace968c520df07480487d95e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb351021596919a9b4042bd9313f0c6ae33bc724/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/e28baa45f95db7a315d51a6dce44a7f5b05500ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf001a0ae520267f07129b67f392435dc789c6a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/952e3dcc105ccbec4270e2528b60dc95a40b44b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8553620d6bb0fa6ea5a29e70375caef2ce7b740e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_f4aa5e3f2063f15f0096d8d4dd7079ee490dafa1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/d862a5c9987290c2ec247e21c2d3b3e0604b4f91/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9770986b6f79ad8776166c23fbccb00ee535ac79/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/d862a5c9987290c2ec247e21c2d3b3e0604b4f91/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9bdfc3e83c6bc1f8bc5807cdaf7e94ac884a2a0d">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_9770986b6f79ad8776166c23fbccb00ee535ac79.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/06e22843fa09f9ffa505af6f75e8279c64b8828a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdd501c2f4c0b45677926a1eb5f33be405dab8cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/06e22843fa09f9ffa505af6f75e8279c64b8828a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_bdd501c2f4c0b45677926a1eb5f33be405dab8cd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c695f0ec8e3d21ab70f574a2d3d45b5582037534">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_40a08658048ff8a1bd8ede9740471a4cc5c3d151/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/13440292a78f0712cd951ebd422a5a24927fa1b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b0d634fb2064f2cd3ec4ee7fadcefdf2c0fda3f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/e28baa45f95db7a315d51a6dce44a7f5b05500ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_cf001a0ae520267f07129b67f392435dc789c6a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/616c0576daaee7f980bd7b0eed913aa8ba38c49b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_aaf8ef6d18e2b1d6485961514443de0ade9cf5a3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/616c0576daaee7f980bd7b0eed913aa8ba38c49b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aaf8ef6d18e2b1d6485961514443de0ade9cf5a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/d6adac1c71e01972e230d722d61fefae9efde47c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_71d1e33d0b0dbbda658f8d9cfe445ce5269cd215.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c34e11f5e8ad13da4082781fdca785e3ba6a284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/kaushal/.android/build-cache/90f9bdefd4ab279797a3ea6ddb6aa3c7f8e8c62d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_394a22d42d91cd6ccf1f694c4c7dbe150d8ef1fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kaushal/.android/build-cache/13440292a78f0712cd951ebd422a5a24927fa1b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/kaushal/workspace/DebateCompetition/DebateServer/AudiencePoll/app/build/intermediates/pre-dexed/release/classes_b0d634fb2064f2cd3ec4ee7fadcefdf2c0fda3f2.jar" />
+    </item>
+
+</items>

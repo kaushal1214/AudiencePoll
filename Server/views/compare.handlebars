@@ -1,0 +1,52 @@
+<script>
+	var socket = io();
+
+	socket.on('result',function(data){
+		
+		var team1 = document.getElementById("result");
+
+		if(isNaN(data.team1) || isNaN(data.team2))
+			alert("No ratings available yet!");
+		else
+			team1.innerHTML=data.team1Name+": "+data.team1+ "</br>"+data.team2Name+": "+data.team2;
+
+	});
+	
+</script>
+<div class="panel panel-danger">
+	<div class="panel-heading">
+		<h2 class="panel-title">
+			Compare Audience Poll
+		</h2>
+	</div>
+	<div class="panel-body">
+	   <form method="post" action="/compare">
+               <div class="panel-body form-horizontal">
+		 <div class="form-group col-md-12">
+		  <label>Select Team 1:</label>&nbsp;
+		  <select name="team1">
+			<option value="hint" name="hint">Team 1</option>
+			{{#each list}}
+			<option value="{{id}}" name="{{id}}">{{name}}</option>
+			{{/each}}
+		  </select>
+			</br>
+			</br>
+		  <label>Select Team 2:</label>&nbsp;
+		  <select name="team2">
+			<option value="hint" name="hint">Team 2</option>
+			{{#each list}}
+			 <option value="{{id}}" name="{{id}}">{{name}}</option>
+			{{/each}}
+		  </select>
+		 </div>
+		 <div class="form-group col-md-12 text-right">
+		  <button type="submit" id="login-btn" class="btn btn-danger" type="button">Compare</button>
+		 </div>
+	       </div>					
+             </form>
+	     <div  class="col-md-10">
+		<label id="result"></label>
+		</div>
+	</div>
+</div>	

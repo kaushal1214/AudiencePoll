@@ -1,0 +1,42 @@
+path 
+	{
+			stroke: steelblue;
+			stroke-width: 3;
+			fill: none;
+	}
+	line
+	{
+		stroke: black;
+	}
+	.xLabel 
+	{
+		text-anchor: middle;
+	}
+	.yLabel
+	{
+		text-anchor: end;
+	}
+	
+	.xGrids
+	{
+		stroke: lightgray;
+	}
+	.yGrids
+	{
+		stroke: lightgray;
+	}
+	text
+	{
+		font-family: Verdana;
+		font-size: 9pt;
+	}
+	.axisArrow
+	{
+		
+		
+	}
+	.dot
+	{
+		stroke: steelblue;
+		fill: lighblue;
+	}

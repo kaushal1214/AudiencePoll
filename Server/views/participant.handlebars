@@ -1,0 +1,119 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h2 class="panel-title">
+			Paritipants Details
+		</h2>
+	</div>
+	<div class="panel-body">
+		<div class="col-md-12 text-left">
+			
+			<label><strong>Name: &nbsp;</strong></label>{{participant.name}}
+			<br/>
+			<label><strong>Group: &nbsp;</strong></label>{{participant.group}}
+			<br/>
+			<label><strong>Unique ID: &nbsp;</strong></label>{{participant.id}}
+		</div>
+	</div>
+	<div class="panel-footer">
+		<div class="row">
+			<div class="col-md-8">
+				Added:
+				<em class="text-muted">{{ timeago participant.timestamp}}</em>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<div class="row">
+			<div class="col-md-8">
+				<strong class="panel-title">Details</strong>
+			</div>
+			<div class="col-md-4 text-right">
+				<button class="btn btn-default btn-sm" id="btn-details" data-id="{{image.uniqueId}}">
+				<i class="fa fa-cog" aria-hidden="true"></i> Settings
+				</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="panel-body">
+	   <div class="row">
+	    <div id="device-details">
+	     <form method="post" action="/participants/{{participant.id}}/delete">
+               <div class="panel-body form-horizontal">
+		 <div class="form-group col-md-12 text-right">
+		  <button type="submit" id="login-btn" class="btn btn-danger" type="button"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
+		 </div>
+	       </div>					
+             </form>
+            </div>
+	    
+	    <div id="chart"class="col-md-12 text-right">
+	    </div>	
+	   </div>
+	    <script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 30},
+    width = 640 - margin.left - margin.right,
+    height = 340 - margin.top - margin.bottom;
+
+// set the ranges
+var x = d3.scaleBand()
+          .range([0, width])
+          .padding(0.1);
+var y = d3.scaleLinear()
+          .range([height, 0]);
+          
+// append the svg object to the body of the page
+// append a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// get the data
+d3.csv("/public/csv/ratings.csv", function(error, data) {
+  if (error) throw error;
+
+  // format the data
+  data.forEach(function(d) {
+    d.number = +d.number;
+  });
+
+  // Scale the range of the data in the domains
+  x.domain(data.map(function(d) { return d.ratings; }));
+  y.domain([0, d3.max(data, function(d) { return d.number; })]);
+
+  // append the rectangles for the bar chart
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.ratings); })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) { return y(d.number); })
+      .attr("height", function(d) { return height - y(d.number); });
+
+  // add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+});
+
+</script>
+       </div>
+</div>
+				
+					

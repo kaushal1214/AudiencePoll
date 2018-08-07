@@ -1,0 +1,34 @@
+{
+  "name": "AudiencePoll",
+  "version": "1.0.0",
+  "description": "A Application to get audience survey and get Ratings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kaushal1214/IoTPlatform-Demo"
+  },
+  "keywords": [
+    "IoT"
+  ],
+  "author": "Kaushal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "json2csv": "^3.11.5",
+    "method-override": "^2.3.7",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "puid": "^1.0.5",
+    "socket.io": "^2.0.4"
+  }
+}

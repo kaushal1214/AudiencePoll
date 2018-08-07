@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mRefresh" android:title="Refresh" android:icon="@android:drawable/ic_menu_rotate" android:visible="true" app:showAsAction="always"></item>
+    <item android:id="@+id/mSettings" android:title="Server IP" android:icon="@android:drawable/ic_menu_manage" android:visible="true" ></item>
+</menu>
