@@ -6,7 +6,7 @@ Audience Poll Application
 #### 3. A user can Open/Close the voting lines for a partiicipant.
 
 
-## Step of using:
+## Steps:
 
 #### 1. 'npm install'
 #### 2. 'npm start'
