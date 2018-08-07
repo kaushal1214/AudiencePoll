@@ -6,11 +6,11 @@ Audience Poll Application
 #### 3. A user can Open/Close the voting lines for a partiicipant.
 
 
-##Step of using:
+## Step of using:
 
 #### 1. 'npm install'
 #### 2. 'npm start'
 
 Screenshot:
 ![Screenshot][screen]
-[screen]: /debateclub.png "debateclub.png"
+[screen]: /Screenshots/audiencPoll.png "debateclub.png"
